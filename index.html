@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kavana V | Web Designer</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- FontAwesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+      
+    }
+    .hero {
+        background: linear-gradient(rgba(232, 172, 181, 0.5), rgba(208, 226, 232, 0.5)),
+              url('your-image-url-here') no-repeat center center/cover;
+         height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        h1{color: #e62786;}
+        p{color: black;} /* 👈 Added this line */
+    }
+
+    .navbar {
+      background: linear-gradient(to right, #e62786, #86b9db);
+    }
+    footer {
+      background: linear-gradient(to right, #e62786, #86b9db);
+    }
+    .btn-custom {
+      background-color: #e62786;
+      color: white;
+      border: none;
+    }
+    .btn-custom:hover {
+      background-color: #e62786;
+      color: white;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      transition: 0.3s;
+    }
+    #contact i:hover {
+      color: #ffffff;
+      background: #e62786;
+      border-radius: 50%;
+      padding: 10px;
+    }
+    .progress-bar {
+      background: linear-gradient(to right, #ff69b4, #87cefa);
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Kavana V</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero text-white">
+  <div class="container">
+    <h1 class="display-4">Hi, I'm Kavana V</h1>
+    <p class="lead">Creative Web Designer & Developer</p>
+    <a href="#projects" class="btn btn-custom mt-3">View My Work</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div class="container text-center">
+    <h2>About Me</h2>
+    <p class="lead"> A passionate Web Designer focused on creating beautiful, user-friendly websites.
+        With a strong eye for design and a love for coding, I blend creativity and functionality to deliver memorable digital experiences.
+        I believe that great design not only looks good but also solves real-world problems.</p>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<!-- Skills Section -->
+<section id="skills" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4">My Skills</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <span class="badge rounded-pill fs-5" style="background-color: #ff69b4;">HTML</span>
+                <span class="badge rounded-pill fs-5" style="background-color: #ff69b4;">CSS</span>
+                <span class="badge rounded-pill fs-5" style="background-color: #ff69b4;">JavaScript</span>
+                <span class="badge rounded-pill fs-5" style="background-color: #ff69b4;">Bootstrap</span>
+                <span class="badge rounded-pill fs-5" style="background-color: #ff69b4;">Responsive Design</span>
+                <span class="badge rounded-pill fs-5" style="background-color: #ff69b4;">UI/UX</span>
+              </div>
+              
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+  <div class="container text-center">
+    <h2>My Projects</h2>
+    <div class="row mt-4">
+      <div class="col-md-4 mb-3">
+        <div class="card p-3">
+          <img src="C:\Users\harshil\Downloads\water.png" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Water Quality Monitoring System UI</h5>
+            <p class="card-text">Modern, responsive design for a startup.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card p-3">
+          <img src="C:\Users\harshil\Downloads\portfolio.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website</h5>
+            <p class="card-text">Personal portfolio site for creatives.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card p-3">
+          <img src="C:\Users\harshil\Downloads\currency.png" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Currency Converter Website</h5>
+            <p class="card-text">Engaging  front-end experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2>Contact Me</h2>
+    <p class="lead">Let's build something amazing together!</p>
+    <p class="lead"> Phone: <strong>7090278869</strong></p>
+    <div class="d-flex justify-content-center gap-4 mt-3">
+      <a href="https://www.instagram.com" target="_blank" class="text-danger fs-2"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com" target="_blank" class="text-primary fs-2"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com" target="_blank" class="text-dark fs-2"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com" target="_blank" class="text-info fs-2"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-white text-center py-3">
+  <p class="mb-0">&copy; 2025 Kavana. All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Smooth Scroll -->
+<script>
+  document.querySelectorAll('a.nav-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      if (this.hash !== '') {
+        e.preventDefault();
+        const hash = this.hash;
+        document.querySelector(hash).scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
